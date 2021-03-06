@@ -9,6 +9,7 @@ import { CompactDisplay } from './compact/display';
 export default class PersonalQuickLinks extends React.Component<IPersonalQuickLinksProps, {}> {
   public render(): React.ReactElement<IPersonalQuickLinksProps> {
     let view:any = undefined;
+    
     const varientStyles = {
       "--varientBGColor": this.props.themeVariant.semanticColors.bodyBackground
       , "--varientFontColor": this.props.themeVariant.semanticColors.bodyText
