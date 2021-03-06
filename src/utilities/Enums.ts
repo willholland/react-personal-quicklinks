@@ -36,3 +36,9 @@ export enum IconSizeOptions {
     ExtraLarge,
     FillSpace
 }
+
+export enum ThumbnailOptions {
+    AutoSelected,
+    CustomImage,
+    Icon
+}

@@ -1,0 +1,88 @@
+.focusZone {
+     :global(.ms-List-cell) {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+    }
+}
+
+.thumbnail {
+    margin: 0px;
+    flex: 0 0 auto;
+    align-self: center;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    padding: 8px;
+    background-color: rgb(250, 249, 248);
+}
+
+.content {
+    width: 100%;
+    box-sizing: border-box;
+    height: 48px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.image {
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon {
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    animation-name: css-0;
+    animation-duration: 0.367s;
+    animation-timing-function: cubic-bezier(0.1, 0.25, 0.75, 0.9);
+    animation-fill-mode: both;
+    position: relative;
+    width: 32px;
+    height: 32px;
+}
+
+.cardText {
+    align-self: center;
+    flex: 1 1 0%;
+    line-height: 21px;
+    min-width: 0px;
+    overflow-wrap: break-word;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0px 12px;
+    color: rgb(50, 49, 48);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    box-sizing: content-box;
+    max-height: 42em;
+}
+
+.link {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    outline: 0px;
+    border: none;
+    border-radius: 2px;
+    user-select: text;
+}

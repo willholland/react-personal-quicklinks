@@ -56,6 +56,12 @@ define([], function() {
         // Title Text Options
         "TitleText": "Title text",
         "TitleTextOptionsOneLine": "One line",
-        "TitleTextOptionsTwoLines": "Two lines"
+        "TitleTextOptionsTwoLines": "Two lines",
+
+        // Link Thumbnail Options
+        "Thumbnail": "Thumbnail",
+        "ThumbnailAutoSelected": "Auto-selected",
+        "ThumbnailCustomImage": "Custom image",
+        "ThumbnailIcon": "Icon"
     }
 });
