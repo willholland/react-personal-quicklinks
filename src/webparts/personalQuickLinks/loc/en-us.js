@@ -1,5 +1,6 @@
 define([], function() {
     return {
+        "Title": "Title",
         "PropertyPaneDescription": "Description",
         "BasicGroupName": "Group Name",
         "DescriptionFieldLabel": "Description Field",
@@ -62,6 +63,10 @@ define([], function() {
         "Thumbnail": "Thumbnail",
         "ThumbnailAutoSelected": "Auto-selected",
         "ThumbnailCustomImage": "Custom image",
-        "ThumbnailIcon": "Icon"
+        "ThumbnailIcon": "Icon",
+
+        // Quick Link Item Options
+        "Link": "Link",
+        "AlternateText": "Alternate Text"
     }
 });

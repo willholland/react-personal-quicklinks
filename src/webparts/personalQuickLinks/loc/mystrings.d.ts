@@ -1,6 +1,7 @@
 
 
 declare interface IPersonalQuickLinksWebPartStrings {
+  Title: string;
   Yes: string;
   No: string;
   PropertyPaneDescription: string;
@@ -42,6 +43,8 @@ declare interface IPersonalQuickLinksWebPartStrings {
   ThumbnailAutoSelected: string;
   ThumbnailCustomImage: string;
   ThumbnailIcon: string;
+  Link: string;
+  AlternateText: string;
 }
 
 

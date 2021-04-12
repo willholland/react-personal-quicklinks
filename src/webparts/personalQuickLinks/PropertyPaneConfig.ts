@@ -6,12 +6,12 @@ export class PropertyPaneConfiguration{
     public static LayoutTileSelector = PropertyPaneChoiceGroup("layout", {
         // label: ,
         options: [
-            { key: Enums.Layouts.LayoutCompact, text: strings.LayoutCompact },
-            { key: Enums.Layouts.LayoutFilmstrip, text: strings.LayoutFilmstrip },
-            { key: Enums.Layouts.LayoutGrid, text: strings.LayoutGrid },
-            { key: Enums.Layouts.LayoutButton, text: strings.LayoutButton },
-            { key: Enums.Layouts.LayoutList, text: strings.LayoutList },
-            { key: Enums.Layouts.LayoutTiles, text: strings.LayoutTiles }
+            { key: Enums.Layouts.LayoutCompact, text: strings.LayoutCompact, iconProps: { officeFabricIconFontName: "AutoFillTemplate"} },
+            { key: Enums.Layouts.LayoutFilmstrip, text: strings.LayoutFilmstrip, iconProps: { officeFabricIconFontName: "DoubleColumn"} },
+            { key: Enums.Layouts.LayoutGrid, text: strings.LayoutGrid, iconProps: { officeFabricIconFontName: "GridViewSmall"} },
+            { key: Enums.Layouts.LayoutButton, text: strings.LayoutButton, iconProps: { officeFabricIconFontName: "ButtonControl"} },
+            { key: Enums.Layouts.LayoutList, text: strings.LayoutList, iconProps: { officeFabricIconFontName: "List"} },
+            { key: Enums.Layouts.LayoutTiles, text: strings.LayoutTiles, iconProps: { officeFabricIconFontName: "Tiles"} }
         ]
     });
     
@@ -87,5 +87,26 @@ export class PropertyPaneConfiguration{
         onText: strings.Yes,
         offText: strings.No        
     });
+
+    // Quick Link Properties
+    public static QuickLink_title = PropertyPaneTextField("title", {
+        label: strings.Title,
+    });
+    public static QuickLink_url = PropertyPaneTextField("url", {
+        label: strings.Link,
+    });
+    public static QuickLink_thumbNailUrl = PropertyPaneTextField("thumbNailUrl", {
+        label: strings.Thumbnail,
+    });
+
+    public static QuickLink_alternateText = PropertyPaneTextField("alternateText", {
+        label: strings.AlternateText,
+    });
+
+    public static QuickLink_description = PropertyPaneTextField("description", {
+        label: strings.DescriptionFieldLabel,
+    });
+
+
 
 }

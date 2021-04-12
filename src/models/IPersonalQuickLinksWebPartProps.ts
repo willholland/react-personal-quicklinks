@@ -1,4 +1,6 @@
+import { IQuickLink } from 'models';
 import * as Enums from '@utility'
+
 export interface IPersonalQuickLinksWebPartProps {
     title: string;
     layout: Enums.Layouts;
@@ -11,4 +13,5 @@ export interface IPersonalQuickLinksWebPartProps {
     showIcons: boolean;
     iconSize: Enums.IconSizeOptions;
     showOnlyIconOrImage: boolean;
+    links: IQuickLink[];
 }
