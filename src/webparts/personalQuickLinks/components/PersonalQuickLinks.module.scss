@@ -25,7 +25,10 @@
     }
     .title {
         @include ms-font-xl;
-        @include ms-fontColor-white;
+        color: var(--varientFontColor);
+        padding-bottom: 0px !important;
+        margin-bottom: 0px;
+        height: 24px;
     }
     .subTitle {
         @include ms-font-l;
@@ -65,5 +68,41 @@
             vertical-align: top;
             display: inline-block;
         }
+    }
+        
+    .root {
+        width: 100%;
+        box-sizing: border-box;
+        position: relative;
+        outline: 0px;
+        border: none;
+        border-radius: 2px;
+        user-select: text;
+    }    
+}
+.filePickerChangeButton{
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 1px solid rgb(117, 117, 117);
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 0px 16px;
+    border-radius: 2px;
+    min-width: 80px;
+    height: 32px;
+    background-color: rgb(117, 117, 117);
+    color: rgb(255, 255, 255);
+    user-select: none;
+    &:hover{
+        background-color: rgb(106, 106, 106);
+        border: 1px solid rgb(106, 106, 106);
+        color: rgb(255, 255, 255);
     }
 }

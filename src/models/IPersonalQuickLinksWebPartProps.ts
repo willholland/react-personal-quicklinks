@@ -1,5 +1,6 @@
 import { IQuickLink } from 'models';
 import * as Enums from '@utility'
+import { DisplayMode } from '@microsoft/sp-core-library';
 
 export interface IPersonalQuickLinksWebPartProps {
     title: string;
@@ -14,4 +15,5 @@ export interface IPersonalQuickLinksWebPartProps {
     iconSize: Enums.IconSizeOptions;
     showOnlyIconOrImage: boolean;
     links: IQuickLink[];
+    displayMode: DisplayMode;
 }

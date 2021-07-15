@@ -5,6 +5,6 @@ export interface IQuickLink{
     title: string;
     thumbNailOption?: Enums.ThumbnailOptions;
     thumbNailUrl: string;
-    alternateText: string;
-    description: string;
+    alternateText?: string;
+    description?: string;
 }

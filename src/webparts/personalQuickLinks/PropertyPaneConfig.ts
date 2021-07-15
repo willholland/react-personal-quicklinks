@@ -87,26 +87,4 @@ export class PropertyPaneConfiguration{
         onText: strings.Yes,
         offText: strings.No        
     });
-
-    // Quick Link Properties
-    public static QuickLink_title = PropertyPaneTextField("title", {
-        label: strings.Title,
-    });
-    public static QuickLink_url = PropertyPaneTextField("url", {
-        label: strings.Link,
-    });
-    public static QuickLink_thumbNailUrl = PropertyPaneTextField("thumbNailUrl", {
-        label: strings.Thumbnail,
-    });
-
-    public static QuickLink_alternateText = PropertyPaneTextField("alternateText", {
-        label: strings.AlternateText,
-    });
-
-    public static QuickLink_description = PropertyPaneTextField("description", {
-        label: strings.DescriptionFieldLabel,
-    });
-
-
-
 }
